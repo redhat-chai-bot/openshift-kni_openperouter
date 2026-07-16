@@ -12,3 +12,4 @@ ENTRYPOINT ["/bin/opm"]
 CMD ["serve", "/configs", "--cache-dir=/tmp/cache"]
 
 LABEL operators.operatorframework.io.index.configs.v1=/configs
+LABEL com.redhat.fbc.openshift.version='["5.0"]'
